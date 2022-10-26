@@ -19,7 +19,7 @@ function Hero() {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center
     text-center overflow-hidden">
       <BackgroundCircle />
-      <div>
+      <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Software Engineer
           </h2>
@@ -29,15 +29,15 @@ function Hero() {
         </h1>
 
         <div className="pt-5">
-          <Link to={}>
+          <a href="#about">
             <button className="heroButton">About</button>
-          </Link>
-          <Link>
+          </a>
+          <a href="#experience">
             <button className="heroButton">Experience</button>
-          </Link>
-          <Link>
+          </a>
+          <a href="#skills">
             <button className="heroButton">Skills</button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

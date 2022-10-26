@@ -14,18 +14,18 @@ function BackgroundCircle() {
       transition={{
         duration: 2.5
       }}
-      className="relative flex justify-center items-center"
+      className="relative flex justify-center items-center z-10"
     >
-        <div className="absolute border border-[#404040] h-[200px] w-[200px]
-        mt-52 animate-ping rotate-[20deg]"/>
-        <div className="absolute border border-[#404040] h-[300px] w-[300px]
-        mt-52 animate-ping -rotate-[50deg]"/>
-        <div className="absolute border border-[#404040] h-[500px] w-[500px]
-        mt-52 animate-ping"/>
+        <div className="absolute border border-[#3A3A3A] h-[200px] w-[200px]
+        mt-52 animate-pulse_slow rotate-[20deg]"/>
+        <div className="absolute border border-[#3A3A3A] h-[300px] w-[300px]
+        mt-52 animate-pulse_slow -rotate-[50deg]"/>
+        <div className="absolute border border-[#3A3A3A] h-[500px] w-[500px]
+        mt-52 animate-pulse_slow"/>
         <div className="absolute border border-[#00bfff] opacity-20 h-[650px] w-[650px]
         mt-52 animate-pulse -rotate-[15deg]"/>
-        <div className="absolute border border-[#404040] h-[500px] w-[500px]
-        mt-52 animate-ping rotate-[70deg]"/>
+        <div className="absolute border border-[#3A3A3A] h-[800px] w-[800px]
+        mt-52 animate-pulse_slow rotate-[70deg]"/>
         <div />
     </motion.div>
   )
