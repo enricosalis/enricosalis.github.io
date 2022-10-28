@@ -1,8 +1,8 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import ExperienceCard from "./ExperienceCard"
+import { ExperienceCardOne, ExperienceCardTwo } from "./ExperienceCard"
 
-function WorkExperience() {
+export function WorkExperience() {
   return (
     <motion.div 
       initial={{
@@ -14,19 +14,19 @@ function WorkExperience() {
       transition={{
         duration: 1.5
       }}     
-      className="h-screen flex relative overflow-hidden flex-col
-      md:flex-row max-w-full px-10 justify-end mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Experience
-      </h3>
+      className="h-screen relative flex flex-col md:flex-row overflow-hidden 
+      max-w-full px-10 mx-auto">
+      <div className="absolute top-24 right-10 left-10 bottom-0 flex flex-col items-center">
+        <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl">
+          Experience
+        </h3>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        <div className="w-full flex space-x-20 sm:space-x-20 md:space-x-56 xl:space-x-96
+        overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00bfff]/80">
+          <ExperienceCardOne />
+          <ExperienceCardTwo />
+        </div>
       </div>
     </motion.div>
   )
 }
-
-export default WorkExperience

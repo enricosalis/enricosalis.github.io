@@ -32,9 +32,14 @@ function Header() {
           fgColor="gray"
           bgColor="transparent"
         />
+        <SocialIcon 
+          url="https://github.com/enricosalis"
+          fgColor="gray"
+          bgColor="transparent"
+        />
       </motion.div>
 
-      <motion.div 
+      {/* <motion.div 
       initial={{
         x: 500,
         opacity: 0,
@@ -58,7 +63,7 @@ function Header() {
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400 my-auto">
           Get in touch
         </p>
-      </motion.div>
+      </motion.div> */}
     </header>
   )
 }
