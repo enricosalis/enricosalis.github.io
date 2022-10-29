@@ -33,17 +33,20 @@ function About() {
             }}
             viewport={{ once: true }}
             src="https://i.pinimg.com/736x/68/a5/aa/68a5aa104457ecac4d4136285a830e3e.jpg"
-            className="mb-8 xl:mb-0 flex-shrink-0 w-40 h-40 sm:w-56 sm:h-56 rounded-full object-cover md:w-64 md:h-64 
+            className="mb-8 xl:mb-0 flex-shrink-0 w-32 h-32 sm:w-56 sm:h-56 rounded-full object-cover md:w-64 md:h-64 
             xl:w-[500px] xl:h-[500px]"
           />
-          <div className="space-y-10 px-0 md:px-10">
-            <h4 className="text-3xl md:text-4xl font-semibold ">
+          <div className="space-y-6 sm:space-y-10 px-0 md:px-10">
+            <h4 className="text-2xl sm:text-3xl md:text-4xl font-semibold ">
               Here is a{" "}
               <span className="underline decoration-[#00bfff]">little</span>{" "}
               background
             </h4>
-            <p className="text-nase">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p className="text-nase max-sm:max-h-300px">
+              I'm Enrico, I'm 32 years old and I live in Sardinia.
+              I have a M.Sc. degree in Telecommunications Engineering and I'm currently working at Pluribus One as a Software Engineer.
+              I'm in love with innovation, and I like to experiment with new technologies and new programming languages, keeping up with technological progress.
+              In the free time I love surfing, druming, and obviously coding.
             </p>
           </div>
         </div>
