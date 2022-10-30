@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { Link } from "react-scroll"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
 import BackgroundCircle from "./BackgroundCircle"
 
@@ -14,7 +14,8 @@ function Hero() {
     ],
     loop: true,
     delaySpeed: 2000
-  })
+  });
+  
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center
     text-center overflow-hidden">
@@ -29,15 +30,15 @@ function Hero() {
         </h1>
 
         <div className="pt-8">
-          <a href="#about">
+          <Link activeClass="active" to="about" spy={ true } smooth={ true }>
             <button className="heroButton">About</button>
-          </a>
-          <a href="#experience">
+          </Link>
+          <Link activeClass="active" to="experience" spy={ true } smooth={ true }>
             <button className="heroButton">Experience</button>
-          </a>
-          <a href="#skills">
+          </Link>
+          <Link activeClass="active" to="skills" spy={ true } smooth={ true }>
             <button className="heroButton">Skills</button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ export function ExperienceCardOne() {
   return (
     <div className="min-w-full">
       <article className="flex flex-col rounded-md items-center flex-shrink-0
-      w-[270px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-6 px-6 sm:px-10 mx-auto bg-[#34343d]
+      w-[300px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-6 px-6 sm:px-10 mx-auto bg-[#34343d]
       overflow-x-hidden overflow-y-auto max-h-[550px] sm:max-h-[620px] 
       scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00bfff]/80">
         <motion.img 
@@ -17,7 +17,7 @@ export function ExperienceCardOne() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 xl:w-[140px] xl:h-[140px] rounded-full object-cover object-center"
-          src="https://scontent.fcag3-1.fna.fbcdn.net/v/t1.6435-9/125163763_2498639180435899_3250193010380174891_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=7X2penqhNF8AX-xQUaP&_nc_ht=scontent.fcag3-1.fna&oh=00_AfBQku7Lob96xM0S3ycc3o6AJaKGxU2yk3JNV4hduIMv_w&oe=637F4166"
+          src="/PO_logo_bg_green.png"
         />
 
         <div className="px-0 md:px-0 mt-6">
@@ -43,7 +43,7 @@ export function ExperienceCardTwo() {
   return (
     <div className="min-w-full">
       <article className="flex flex-col rounded-md items-center flex-shrink-0
-      w-[270px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-10 px-6 md:px-10 mx-auto bg-[#34343d]
+      w-[300px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-10 px-6 md:px-10 mx-auto bg-[#34343d]
       overflow-x-hidden overflow-y-auto max-h-[550px] sm:max-h-[620px] 
       scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00bfff]/80">
         <motion.img 
@@ -55,7 +55,7 @@ export function ExperienceCardTwo() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 xl:w-[140px] xl:h-[140px] rounded-full object-cover object-center"
-          src="https://pbs.twimg.com/profile_images/781537084163194880/vGEYfshd_400x400.jpg"
+          src="/pralab_logo.png"
         />
 
         <div className="px-0 md:px-0 mt-10">
