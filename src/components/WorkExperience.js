@@ -15,14 +15,15 @@ export function WorkExperience() {
         duration: 1.5
       }}     
       className="h-screen relative flex flex-col md:flex-row overflow-hidden 
-      max-w-full px-10 mx-auto">
-      <div className="absolute top-24 left-0 flex flex-col items-center max-w-full">
+      max-w-full px-6 sm:px-10 mx-auto">
+      <div className="absolute top-20 sm:top-24 left-0 flex flex-col items-center max-w-full">
         <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl ml-5">
           Experience
         </h3>
 
-        <div className="w-full flex 
-        overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00bfff]/80">
+        <div className="w-full flex overflow-x-scroll p-6 sm:p-10 
+        snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 
+        scrollbar-thumb-[#00bfff]/80">
           <ExperienceCardOne />
           <ExperienceCardTwo />
         </div>

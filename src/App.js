@@ -6,7 +6,7 @@ import { WorkExperience } from "./components/WorkExperience";
 
 function App() {
   return (
-    <body className="bg-[#2a2a32] text-white h-screen snap-y snap-mandatory 
+    <div className="bg-[#2a2a32] text-white h-screen snap-y snap-mandatory 
     overflow-scroll z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00bfff]/80">
       <Header />
 
@@ -21,7 +21,7 @@ function App() {
       <section id="experience" className="snap-center">
         <WorkExperience />
       </section>
-    </body>
+    </div>
   );
 }
 

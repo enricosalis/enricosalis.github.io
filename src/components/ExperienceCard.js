@@ -5,7 +5,7 @@ export function ExperienceCardOne() {
   return (
     <div className="min-w-full">
       <article className="flex flex-col rounded-md items-center flex-shrink-0
-      w-[300px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-6 px-6 sm:px-10 mx-auto bg-[#34343d]
+      w-[310px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-6 px-6 sm:px-10 mx-auto bg-[#34343d]
       overflow-x-hidden overflow-y-auto max-h-[550px] sm:max-h-[620px] 
       scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00bfff]/80">
         <motion.img 
@@ -25,7 +25,7 @@ export function ExperienceCardOne() {
           <p className="font-bold text-xl mt-1 text-gray-300">Pluribus One</p>
           <p className="py-2 text-gray-300">February 2018 - Today</p>
 
-          <ul className="list-disc space-y-4 ml-5 mt-8 text-md text-gray-300">
+          <ul className="list-disc space-y-4 ml-5 mt-8 text-sm sm:text-md text-gray-300">
             <li>Backend design and development: Elixir, Phoenix, Python, Django</li>
             <li>Frontend design and development: HTML, CSS, Javascript, React</li>
             <li>Database design: PostgreSQL</li>
@@ -43,7 +43,7 @@ export function ExperienceCardTwo() {
   return (
     <div className="min-w-full">
       <article className="flex flex-col rounded-md items-center flex-shrink-0
-      w-[300px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-10 px-6 md:px-10 mx-auto bg-[#34343d]
+      w-[310px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-10 px-6 md:px-10 mx-auto bg-[#34343d]
       overflow-x-hidden overflow-y-auto max-h-[550px] sm:max-h-[620px] 
       scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00bfff]/80">
         <motion.img 
@@ -63,7 +63,7 @@ export function ExperienceCardTwo() {
           <p className="font-bold text-xl mt-1 text-gray-300">PRALab</p>
           <p className="py-2 text-gray-300">April 2015 - July 2017</p>
 
-          <ul className="list-disc space-y-4 ml-5 mt-8 text-md">
+          <ul className="list-disc space-y-4 ml-5 mt-8 text-sm sm:text-md">
             <li>Web Application security</li>
             <li>Machine Learning</li>
             <li>Backend design and development: Python, Django</li>

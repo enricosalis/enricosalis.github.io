@@ -30,15 +30,13 @@ function Hero() {
         </h1>
 
         <div className="pt-8">
-          <Link activeClass="active" to="about" spy={ true } smooth={ true }>
+          <a href="#about">
             <button className="heroButton">About</button>
-          </Link>
-          <Link activeClass="active" to="experience" spy={ true } smooth={ true }>
+          </a>
+          <a href="#experience">
             <button className="heroButton">Experience</button>
-          </Link>
-          <Link activeClass="active" to="skills" spy={ true } smooth={ true }>
-            <button className="heroButton">Skills</button>
-          </Link>
+          </a>
+          <button className="heroButton">Skills</button>
         </div>
       </div>
     </div>
