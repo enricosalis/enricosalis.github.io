@@ -17,7 +17,7 @@ export function WorkExperience() {
       className="h-screen relative flex flex-col md:flex-row overflow-hidden 
       max-w-full px-6 sm:px-10 mx-auto">
       <div className="absolute top-20 sm:top-24 left-0 flex flex-col items-center max-w-full">
-        <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl ml-5">
+        <h3 className="uppercase tracking-[20px] text-gray-500 text-xl sm:text-2xl ml-5">
           Experience
         </h3>
 

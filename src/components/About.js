@@ -15,7 +15,7 @@ function About() {
       }} 
       className="h-screen relative text-center md:text-left max-w-7xl px-10 mx-auto">
       <div className="absolute top-20 sm:top-24 right-6 sm:right-10 left-6 sm:left-10 flex flex-col justify-evenly items-center">
-        <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl mb-6 ml-5">
+        <h3 className="uppercase tracking-[20px] text-gray-500 text-xl sm:text-2xl mb-6 ml-5">
           About
         </h3>
         <div className="flex flex-col items-center xl:flex-row text-center xl:text-left">
