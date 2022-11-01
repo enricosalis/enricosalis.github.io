@@ -63,7 +63,7 @@ export function ExperienceCardTwo() {
           <p className="font-bold text-xl mt-1 text-gray-300">PRALab</p>
           <p className="py-2 text-gray-300">April 2015 - July 2017</p>
 
-          <ul className="list-disc space-y-4 ml-5 mt-8 text-sm sm:text-md">
+          <ul className="list-disc space-y-4 ml-5 mt-8 text-sm sm:text-md text-gray-300">
             <li>Web Application security</li>
             <li>Machine Learning</li>
             <li>Backend design and development: Python, Django</li>
