@@ -30,9 +30,9 @@ function Hero() {
         </h1>
 
         <div className="pt-8">
-          <a href="#about">
+          <Link to="about" spy={true} smooth={true}>
             <button className="heroButton">About</button>
-          </a>
+          </Link>
           <a href="#experience">
             <button className="heroButton">Experience</button>
           </a>

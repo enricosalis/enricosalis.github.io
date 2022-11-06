@@ -4,10 +4,10 @@ import { motion } from "framer-motion"
 export function ExperienceCardOne() {
   return (
     <div className="min-w-full">
-      <article className="flex flex-col rounded-md items-center flex-shrink-0
-      w-[310px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-6 px-6 sm:px-10 mx-auto bg-[#34343d]
-      overflow-x-hidden overflow-y-auto max-h-[550px] sm:max-h-[620px] 
-      scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00bfff]/80">
+      <article className="experience-card flex flex-col rounded-md items-center flex-shrink-0
+      w-[310px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-6 px-6 sm:px-10 mx-auto 
+      bg-gradient-to-tr from-[#00bfff]/10
+      overflow-x-hidden overflow-y-auto max-h-[550px] sm:max-h-[620px]">
         <motion.img 
           initial={{
             y: -100,
@@ -42,10 +42,10 @@ export function ExperienceCardOne() {
 export function ExperienceCardTwo() {
   return (
     <div className="min-w-full">
-      <article className="flex flex-col rounded-md items-center flex-shrink-0
-      w-[310px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-10 px-6 md:px-10 mx-auto bg-[#34343d]
-      overflow-x-hidden overflow-y-auto max-h-[550px] sm:max-h-[620px] 
-      scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00bfff]/80">
+      <article className="experience-card flex flex-col rounded-md items-center flex-shrink-0
+      w-[310px] sm:w-[500px] md:w-[680px] xl:w-[900px] snap-center py-10 px-6 md:px-10 mx-auto 
+      bg-gradient-to-tl from-[#00bfff]/10 
+      overflow-x-hidden overflow-y-auto max-h-[550px] sm:max-h-[620px]">
         <motion.img 
           initial={{
             y: -100,

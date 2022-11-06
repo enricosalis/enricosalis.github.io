@@ -21,7 +21,7 @@ export function WorkExperience() {
           Experience
         </h3>
 
-        <div className="w-full flex overflow-x-scroll p-6 sm:p-10 
+        <div id="work-experience" className="w-full flex overflow-x-scroll px-6 py-8 sm:p-10 
         snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 
         scrollbar-thumb-[#00bfff]/80">
           <ExperienceCardOne />

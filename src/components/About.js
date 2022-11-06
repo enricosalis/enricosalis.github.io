@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import { Element } from 'react-scroll'
 
 function About() {
   return (
@@ -18,7 +19,7 @@ function About() {
         <h3 className="uppercase tracking-[20px] text-gray-500 text-xl sm:text-2xl mb-6 ml-5">
           About
         </h3>
-        <div className="flex flex-col items-center xl:flex-row text-center xl:text-left">
+        <Element name="about" className="flex flex-col items-center xl:flex-row text-center xl:text-left">
           <motion.img 
             initial={{
               x: -200,
@@ -33,7 +34,7 @@ function About() {
             }}
             viewport={{ once: true }}
             src="/IMG-20200830-WA0011.jpg"
-            className="mb-6 xl:mb-0 flex-shrink-0 w-40 h-40 sm:w-56 sm:h-56 rounded-full object-cover md:w-64 md:h-64 
+            className="mb-8 xl:mb-0 flex-shrink-0 w-40 h-40 sm:w-56 sm:h-56 rounded-full object-cover md:w-64 md:h-64 
             xl:w-[500px] xl:h-[500px]"
           />
           <div className="space-y-4 sm:space-y-10 px-0 md:px-10">
@@ -49,7 +50,7 @@ function About() {
               In the free time I love surfing, druming, and obviously coding.
             </p>
           </div>
-        </div>
+        </Element>
       </div>
     </motion.div>
   )
