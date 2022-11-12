@@ -16,19 +16,19 @@ function BackgroundCircle() {
       }}
       className="relative flex justify-center items-center z-10"
     >
-        <div className="absolute border border-[#3A3A3A] 
+        <div className="absolute border border-[#3A3A3A] rounded-lg
         h-[100px] w-[100px] md:h-[150px] md:w-[150px] xl:h-[200px] xl:w-[200px]
         mt-52 animate-pulse_slow rotate-[20deg]"/>
-        <div className="absolute border border-[#3A3A3A] 
+        <div className="absolute border border-[#3A3A3A] rounded-lg
         h-[150px] w-[150px] md:h-[200px] md:w-[200px] xl:h-[300px] xl:w-[300px]
         mt-52 animate-pulse_slow -rotate-[50deg]"/>
-        <div className="absolute border border-[#3A3A3A] 
+        <div className="absolute border border-[#3A3A3A] rounded-lg
         h-[300px] w-[300px] md:h-[400px] md:w-[400px] xl:h-[500px] xl:w-[500px]
         mt-52 animate-pulse_slow"/>
-        <div className="absolute border border-[#00bfff] opacity-20 
+        <div className="absolute border-2 border-white opacity-20 rounded-lg
         h-[450px] w-[450px] md:h-[550px] md:w-[550px] xl:h-[650px] xl:w-[650px]
         mt-52 animate-pulse -rotate-[15deg]"/>
-        <div className="absolute border border-[#3A3A3A] 
+        <div className="absolute border border-[#3A3A3A] rounded-lg
         h-[650px] w-[650px] md:h-[750px] md:w-[750px] xl:h-[850px] xl:w-[850px]
         mt-52 animate-pulse_slow rotate-[70deg]"/>
         <div />

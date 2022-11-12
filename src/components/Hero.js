@@ -25,14 +25,20 @@ function Hero() {
           Software Engineer
           </h2>
         <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold px-10">
-          <span>{text}</span>
-          <Cursor cursorColor="#00bfff" />  
+          <span className="bg-clip-text text-transparent
+        bg-gradient-to-r from-[#00bfff] to-[#c716fd]">{text}</span>
+          <Cursor cursorColor="#ffffff" />  
         </h1>
 
         <div className="pt-8">
-          <Link to="about" spy={true} smooth={true}>
+          <a href="/"
+          onClick={e => {
+            let about = document.getElementById("about");
+            e.preventDefault();
+            about.scrollIntoView({ behaviour: 'smooth' });
+          }}>
             <button className="heroButton">About</button>
-          </Link>
+          </a>
           <a href="#experience">
             <button className="heroButton">Experience</button>
           </a>

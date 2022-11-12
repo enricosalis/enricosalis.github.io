@@ -19,7 +19,7 @@ function About() {
         <h3 className="uppercase tracking-[20px] text-gray-500 text-xl sm:text-2xl mb-6 ml-5">
           About
         </h3>
-        <Element name="about" className="flex flex-col items-center xl:flex-row text-center xl:text-left">
+        <div id="about" className="flex flex-col items-center xl:flex-row text-center xl:text-left">
           <motion.img 
             initial={{
               x: -200,
@@ -50,7 +50,7 @@ function About() {
               In the free time I love surfing, druming, and obviously coding.
             </p>
           </div>
-        </Element>
+        </div>
       </div>
     </motion.div>
   )
