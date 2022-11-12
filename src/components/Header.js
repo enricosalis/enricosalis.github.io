@@ -1,10 +1,11 @@
 import { motion } from "framer-motion"
 import React from 'react'
-import { SocialIcon } from 'react-social-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 function Header() {
   return (
-    <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20
+    <header className="sticky top-0 py-8 px-4 flex items-start justify-between max-w-7xl mx-auto z-20
     xl:items-center ">
       <motion.div 
         initial={{
@@ -20,23 +21,20 @@ function Header() {
         transition={{
           duration: 1.5
         }}
-        className="flex flex-row items-center"
+        className="flex flex-row items-center gap-5"
       >
-        <SocialIcon 
-          url="https://www.linkedin.com/in/enrico-salis/"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon 
-          url="https://twitter.com/salis_enrico"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon 
-          url="https://github.com/enricosalis"
-          fgColor="gray"
-          bgColor="transparent"
-        />
+        <a href="https://www.linkedin.com/in/enrico-salis/">
+          <FontAwesomeIcon icon={['fab', 'linkedin-in']} 
+          className="text-xl hover:text-[#00bfff]" />
+        </a>
+        <a href="https://twitter.com/salis_enrico">
+          <FontAwesomeIcon icon={['fab', 'twitter']} 
+          className="text-xl hover:text-[#8250FE]" />
+        </a>
+        <a href="https://github.com/enricosalis">
+          <FontAwesomeIcon icon={['fab', 'github']} 
+          className="text-xl hover:text-[#c716fd]" />
+        </a>
       </motion.div>
 
       {/* <motion.div 

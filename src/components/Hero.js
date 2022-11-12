@@ -17,20 +17,20 @@ function Hero() {
   });
   
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center
-    text-center overflow-hidden">
+    <div className="h-screen flex flex-col space-y-8 items-center justify-center overflow-hidden">
       <BackgroundCircle />
-      <div className="z-20">
-        <h2 className="text-xs sm:text-sm uppercase text-gray-500 pb-4 tracking-[10px] sm:tracking-[15px]">
-          Software Engineer
+      <div className="flex flex-col w-full sm:w-auto items-start sm:items-center z-20 text-left sm:text-center">
+        <h2 className="text-xs sm:text-sm uppercase text-white pb-4 px-4 sm:px-10 tracking-[10px] sm:tracking-[15px]">
+          &lt;Software Engineer/&gt;
           </h2>
-        <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-6xl text-left sm:text-center font-semibold px-4 sm:px-10 
+        min-h-[255px] sm:min-h-[160px] md:min-h-[135px]">
           <span className="bg-clip-text text-transparent
-        bg-gradient-to-r from-[#00bfff] to-[#c716fd]">{text}</span>
+          bg-gradient-to-r from-[#00bfff] to-[#c716fd]">{text}</span>
           <Cursor cursorColor="#ffffff" />  
         </h1>
 
-        <div className="pt-8">
+        <div className="hidden sm:block">
           <a href="/"
           onClick={e => {
             let about = document.getElementById("about");
@@ -42,7 +42,7 @@ function Hero() {
           <a href="#experience">
             <button className="heroButton">Experience</button>
           </a>
-          <button className="heroButton">Skills</button>
+          {/* <button className="heroButton">Skills</button> */}
         </div>
       </div>
     </div>

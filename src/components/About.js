@@ -40,11 +40,12 @@ function About() {
           <div className="space-y-4 sm:space-y-10 px-0 md:px-10">
             <h4 className="text-2xl sm:text-3xl md:text-4xl font-semibold ">
               Here is a{" "}
-              <span className="underline decoration-[#00bfff]">little</span>{" "}
+              <span className="bg-clip-text text-transparent
+              bg-gradient-to-r from-[#00bfff] to-[#c716fd]">little</span>{" "}
               background
             </h4>
-            <p className="text-nase leading-normal sm:leading-loose max-sm:max-h-300px">
-              I'm Enrico, I'm 32 years old and I live in Sardinia.<br />
+            <p className="text-justify leading-normal sm:leading-loose max-sm:max-h-300px">
+              I'm Enrico, I'm 32 years old and I live in Sardinia (Italy).<br />
               I have a M.Sc. degree in Telecommunications Engineering and I'm currently working at Pluribus One as a Software Engineer.<br />
               I'm in love with innovation, and I like to experiment with new technologies and new programming languages, keeping up with technological progress.<br />
               In the free time I love surfing, druming, and obviously coding.
